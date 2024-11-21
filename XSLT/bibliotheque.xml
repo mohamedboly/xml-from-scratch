@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="bibliotheque.xsl"?>
+<bibliotheque>
+  <livre categorie="fiction">
+    <titre>Le Petit Prince</titre>
+    <auteur>Antoine de Saint-Exupéry</auteur>
+    <annee>1943</annee>
+  </livre>
+  <livre categorie="science-fiction">
+    <titre>1984</titre>
+    <auteur>George Orwell</auteur>
+    <annee>1949</annee>
+  </livre>
+  <livre categorie="aventure">
+    <titre>Les Trois Mousquetaires</titre>
+    <auteur>Alexandre Dumas</auteur>
+    <annee>1844</annee>
+  </livre>
+</bibliotheque>

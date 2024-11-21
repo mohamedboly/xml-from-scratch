@@ -1,0 +1,8 @@
+<livres xmlns:xlink="http://www.w3.org/1999/xlink">
+    <livre id="1">
+        <titre xlink:type="simple" xlink:href="http://example.com/le-petit-prince">Le Petit Prince</titre>
+    </livre>
+    <livre id="2">
+        <titre xlink:type="simple" xlink:href="http://example.com/les-miserables">Les Misérables</titre>
+    </livre>
+</livres>

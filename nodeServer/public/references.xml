@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<reference xmlns:xlink="http://www.w3.org/1999/xlink"
+           xlink:type="simple" 
+           xlink:href="http://localhost:8000/bibliotheque.xml#xpointer(id('2'))">
+    Détails sur Les Misérables
+</reference>

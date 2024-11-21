@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<bibliotheque xmlns:xlink="http://www.w3.org/1999/xlink">
+  <livre categorie="fiction" id="1">
+    <titre>Le Petit Prince</titre>
+    <auteur>Antoine de Saint-Exupéry</auteur>
+    <annee>1943</annee>
+  </livre>
+  <livre categorie="science-fiction" id="2">
+    <titre>1984</titre>
+    <auteur>George Orwell</auteur>
+    <annee>1949</annee>
+  </livre>
+  <livre categorie="aventure" id="3">
+    <titre>Les Trois Mousquetaires</titre>
+    <auteur>Alexandre Dumas</auteur>
+    <annee>1844</annee>
+  </livre>
+
+  <!-- Création d'une référence interne vers le livre avec id="2" -->
+  <reference xlink:type="simple" xlink:href="#2">
+    Voir les détails sur <titre>Les Misérables</titre>
+  </reference>
+</bibliotheque>

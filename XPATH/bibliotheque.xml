@@ -1,0 +1,36 @@
+<bibliotheque>
+  <livre categorie="fiction">
+    <titre>Le Petit Prince</titre>
+    <auteur>Antoine de Saint-Exupéry</auteur>
+    <annee>1943</annee>
+  </livre>
+  <livre categorie="science-fiction">
+    <titre>1984</titre>
+    <auteur>George Orwell</auteur>
+    <annee>1949</annee>
+  </livre>
+  <livre categorie="aventure">
+    <titre>Les Trois Mousquetaires</titre>
+    <auteur>Alexandre Dumas</auteur>
+    <annee>1844</annee>
+  </livre>
+</bibliotheque>
+
+<!-- Pour sélectionner tous les titres dans le document -->
+
+//titre
+
+<!-- Sélectionner tous les livres publiés après 1900 -->
+
+//livre[annee > 1900]
+
+<!-- Sélectionner le titre du livre de catégorie "science-fiction"  -->
+
+//livre[@categorie="science-fiction"]/titre
+
+
+<!-- Sélectionner l’auteur du premier livre : -->
+
+//livre[1]/auteur
+
+

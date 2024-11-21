@@ -1,0 +1,16 @@
+<personnes>
+  <personne id="1">
+    <nom>Mohamed Coulibaly</nom>
+    <age>26</age>
+  </personne>
+  <personne id="2">
+    <nom>Mansour Ndiaye</nom>
+    <age>25</age>
+  </personne>
+</personnes>
+
+<!ELEMENT bibliotheque (livre, auteur)>
+<!ELEMENT bibliotheque (livre, auteur?)>
+<!ELEMENT bibliotheque (livre | auteur)>
+<!ELEMENT bibliotheque (livre+)>
+<!ELEMENT bibliotheque (livre*)>

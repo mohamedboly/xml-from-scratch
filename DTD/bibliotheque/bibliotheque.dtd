@@ -1,0 +1,6 @@
+<!ELEMENT bibliotheque (livre+)>
+<!ELEMENT livre (titre, auteur, annee)>
+<!ATTLIST livre categorie CDATA #IMPLIED>
+<!ELEMENT titre (#PCDATA)>
+<!ELEMENT auteur (#PCDATA)>
+<!ELEMENT annee (#PCDATA)>
